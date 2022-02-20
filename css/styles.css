@@ -2,6 +2,7 @@
 :root {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -147,5 +148,33 @@ h3 {
   .title-img {
     position: static;
     transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .carousel-item h2 {
+    font-size: 1.2rem;
+  }
+  #press {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  #pricing h2 {
+    font-size: 1.5rem;
+  }
+  #pricing h3 {
+    font-size: 1.2rem;
+  }
+  .card-body h2 {
+    font-size: 1rem;
+  }
+  #cta h3 {
+    font-size: 1.5rem;
   }
 }
